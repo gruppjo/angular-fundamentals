@@ -9,18 +9,18 @@
   "license": "MIT",
   "author": "Ultimate Angular",
   "dependencies": {
-    "@angular/common": "4.0.0-beta.1",
-    "@angular/compiler": "4.0.0-beta.1",
-    "@angular/core": "4.0.0-beta.1",
-    "@angular/forms": "4.0.0-beta.1",
-    "@angular/http": "4.0.0-beta.1",
-    "@angular/platform-browser": "4.0.0-beta.1",
-    "@angular/platform-browser-dynamic": "4.0.0-beta.1",
-    "@angular/router": "4.0.0-beta.1",
+    "@angular/common": "~4.2.0",
+    "@angular/compiler": "~4.2.0",
+    "@angular/core": "~4.2.0",
+    "@angular/forms": "~4.2.0",
+    "@angular/http": "~4.2.0",
+    "@angular/platform-browser": "~4.2.0",
+    "@angular/platform-browser-dynamic": "~4.2.0",
+    "@angular/router": "~4.2.0",
     "reflect-metadata": "0.1.8",
     "rxjs": "5.0.1",
     "ts-helpers": "1.1.2",
-    "zone.js": "0.7.4"
+    "zone.js": "~0.8.4"
   },
   "scripts": {
     "prestart": "webpack --config vendor/webpack.config.js",
@@ -38,9 +38,9 @@
     "progress-bar-webpack-plugin": "1.9.0",
     "raw-loader": "0.5.1",
     "resolve-url-loader": "1.6.0",
-    "sass-loader": "4.0.2",
+    "sass-loader": "~6.0.5",
     "typescript": "2.1.4",
-    "webpack": "2.2.0-rc.3",
-    "webpack-dev-server": "2.2.0-rc.0"
+    "webpack": "~2.6.0",
+    "webpack-dev-server": "~2.4.4"
   }
 }
